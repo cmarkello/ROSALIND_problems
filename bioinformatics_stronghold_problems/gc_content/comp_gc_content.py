@@ -14,7 +14,7 @@ import sys
 def parse_args():
     """Parse command-line arguments."""
     parser = argparse.ArgumentParser(
-        description="Takes in a DNA string and counts the number of A, C, G, and Ts and outputs a count for each."
+        description="Takes in a FASTA file and calculates and finds the sequence with the largest percentage of GC content."
     )
 
     # Input DNA string
